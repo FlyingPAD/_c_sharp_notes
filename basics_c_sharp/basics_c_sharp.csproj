@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <!-- Basics -->
+    <Compile Remove="a_basics.cs" />
+    <Compile Remove="b_variables.cs" />
+    <Compile Remove="c_conversions.cs" />
+    <Compile Remove="d_conditions.cs" />
+    <Compile Remove="e_operateurs.cs" />
+    <Compile Remove="f_boucles.cs" />
+    <Compile Remove="g_tableaux.cs" />
+    <Compile Remove="h_structures.cs" />
+    <Compile Remove="i_methodes.cs" />
+    <Compile Remove="j_enumerations.cs" />
+	  <!-- Custom Notes -->
+	<Compile Remove="y_exo_equation_2x.cs" />
+    <Compile Remove="y_sucres_syntaxiques.cs" />
+	  <!-- Projects -->
+    <Compile Remove="z_projet_console_custom_gui.cs" />
+    <Compile Remove="z_projet_console_piano.cs" />
+    <Compile Remove="z_projet_house_of_cards.cs" />
+    <Compile Remove="z_projet_mystery_number.cs" />
+  </ItemGroup>
+
+</Project>
